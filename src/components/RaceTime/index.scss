@@ -1,0 +1,37 @@
+.race-time-btn {
+  flex: 0 0 120px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 8px;
+  margin-left: 15px;
+  &:first-child {
+    margin-left: 20px;
+  }
+}
+
+.selector {
+  flex: 0 0 150px;
+  background: rgba(106, 43, 161, 0.4);
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 7.5px;
+    background: rgb(130, 31, 242);
+    margin-right: 10px;
+    animation: twinkling 1s infinite;
+  }
+}
+@keyframes twinkling {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}

@@ -1,0 +1,60 @@
+.race-schedule-card {
+  flex: 0 0 320px;
+  margin-left: 15px;
+  padding: 14px 20px 10px;
+  border-radius: 10px;
+  background: linear-gradient(
+    rgba(108, 69, 225, 0.3),
+    rgb(36, 35, 48, 0.4),
+    rgba(72, 71, 109, 0.4)
+  );
+  &:first-child {
+    margin-left: 20px;
+  }
+  .race-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    p {
+      margin-bottom: 2px;
+    }
+  }
+  .gray-bold {
+    font-size: 15px;
+    color: rgb(176, 176, 176);
+    font-weight: 450;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .race-team-container {
+    margin: 12px 0;
+    .race-team {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2px;
+      img {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+      }
+      h4 {
+        margin: 8px;
+      }
+    }
+  }
+  .btn {
+    width: 48%;
+    margin: 2px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(206, 206, 206);
+    &.red {
+      background: rgb(141, 35, 61);
+    }
+  }
+}

@@ -1,3 +1,23 @@
+### 情境:
+
+- 模擬情境
+  - 後端還沒有 API，如何開始開發？ promise
+  - 不可以用任何 UI lib，非 UI npm 可以使用。
+- 使用工具
+  - React, 除了 UI 框架以外，其他不限制
+
+### 補充題
+
+在賽程點擊購票後, 輸出
+
+```
+{
+  gameId: int,
+  date: string,
+  time: string,
+}
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +88,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# JKO_TEST_ChiHsin_Lin
